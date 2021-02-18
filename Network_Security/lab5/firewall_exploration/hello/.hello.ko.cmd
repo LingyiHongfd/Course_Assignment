@@ -1,0 +1,1 @@
+cmd_/media/sf_data/Netlab/firewall_exp/hello/hello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /media/sf_data/Netlab/firewall_exp/hello/hello.ko /media/sf_data/Netlab/firewall_exp/hello/hello.o /media/sf_data/Netlab/firewall_exp/hello/hello.mod.o
