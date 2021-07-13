@@ -1,0 +1,11 @@
+TARGET = retlib 
+
+all: ${TARGET}
+
+N = 12
+retlib: retlib.c
+	gcc -m32 -DBUF_SIZE=${N} -fno-stack-protector -z noexecstack -o newretlib $@.c
+	sudo chown root newretlib && sudo chmod 4755 newretlib
+
+clean:
+	rm -f *.o *.out ${TARGET} badfile

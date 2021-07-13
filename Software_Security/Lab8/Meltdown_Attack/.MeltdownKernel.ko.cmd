@@ -1,0 +1,1 @@
+cmd_/media/sf_data/lab2/Meltdown_Attack/MeltdownKernel.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /media/sf_data/lab2/Meltdown_Attack/MeltdownKernel.ko /media/sf_data/lab2/Meltdown_Attack/MeltdownKernel.o /media/sf_data/lab2/Meltdown_Attack/MeltdownKernel.mod.o
